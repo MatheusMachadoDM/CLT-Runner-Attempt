@@ -20,7 +20,7 @@ if(active){
 	
 	if(clt){
 		with(inst){
-			vspeed = 1	
+			vspeed = global.vel
 		}
 		if(right){
 			with(inst){
@@ -31,7 +31,7 @@ if(active){
 		exit;
 	}
 	with(inst){
-		vspeed = 1	
+		vspeed = global.vel
 		image_angle = 270
 	}
 	if(right){

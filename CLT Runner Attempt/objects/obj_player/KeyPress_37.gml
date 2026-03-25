@@ -1,3 +1,9 @@
-x = 28
+if(!naParede or x < room_width /2){exit}
+
+
+x = 12
 image_yscale = -1
 
+grv = -grv
+jumpForce = -jumpForce
+hspd = -hspd
