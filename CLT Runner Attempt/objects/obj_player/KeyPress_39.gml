@@ -1,2 +1,2 @@
-x = 164
-image_xscale = -1
+x = 152
+image_yscale = 1
