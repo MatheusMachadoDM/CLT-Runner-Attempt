@@ -27,6 +27,7 @@ if(active){
 				image_xscale = -1
 			}
 		}
+		alarm[0] = random_range(1, 2.5) * 60
 		exit;
 	}
 	with(inst){
