@@ -5,5 +5,8 @@ instance_destroy(other)
 if(global.points > 0){
 	global.points -= piontsLoseQnt
 }
+
 global.life --
+
+hspd = -hspd
 

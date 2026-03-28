@@ -1,3 +1,11 @@
+if(global.life <= 0){
+	room_restart()
+	gameReset()
+	exit
+}
+
+#region jump
+
 var keyJump = keyboard_check_pressed(vk_space)
 
 hspd -= grv
@@ -26,9 +34,21 @@ if(place_meeting(x + hspd, y, obj_wall)){
 naParede = place_meeting(x + 1, y, obj_wall) || place_meeting(x - 1, y, obj_wall);
 
 if (!naParede) {
-    sprite_index = spr_punch_jump; // Sprite no ar
+    sprite_index = spr_punch_jump;
+	
 } else {
-    sprite_index = spr_punch_walk; // Sprite grudado na parede
+    sprite_index = spr_punch_walk;
+	
+	if(global.jumps > 0){
+		if(keyJump){
+		global.jumps--
+		}
+	}else{
+		exit
+	}
+	
 }
-
 x = x + hspd
+
+#endregion
+

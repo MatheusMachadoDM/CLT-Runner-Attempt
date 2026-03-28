@@ -1,0 +1,3 @@
+
+gameReset()
+room_restart()
