@@ -9,8 +9,8 @@
   "name":"obj_pages",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"rm_start",
+    "path":"folders/Objects/rm_start.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"page",
-    "path":"sprites/page/page.yy",
+    "name":"spr_punch_images",
+    "path":"sprites/spr_punch_images/spr_punch_images.yy",
   },
   "spriteMaskId":null,
   "visible":true,

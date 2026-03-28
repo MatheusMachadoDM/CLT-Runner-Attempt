@@ -1,9 +1,11 @@
-if(!naParede or x < room_width /2){exit}
+//if(!naParede or x < room_width /2){exit}
 
 
 x = 12
 image_yscale = -1
+left = true
 
+/*
 grv = -grv
 jumpForce = -jumpForce
 hspd = -hspd

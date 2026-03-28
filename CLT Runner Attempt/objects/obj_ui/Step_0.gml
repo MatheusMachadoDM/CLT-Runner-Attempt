@@ -3,19 +3,19 @@ if(global.points >= 0){
 	layer_vspeed("Background", global.vel)
 	global.stage = 0
 }
-if(global.points >= 300){
+if(global.points >= 250){
 	global.vel  = 2
 	layer_vspeed("Background", global.vel)
 	global.stage = 1
 }
 
-if(global.points >= 600){
+if(global.points >= 500){
 	global.vel  = 3
 	layer_vspeed("Background", global.vel)
 	global.stage = 2
 }
 
-if(global.points >= 900){
+if(global.points >= 750){
 	global.vel  = 4
 	layer_vspeed("Background", global.vel)
 	global.stage = 3

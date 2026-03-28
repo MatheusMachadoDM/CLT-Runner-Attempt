@@ -6,7 +6,11 @@ global.points = 0
 	
 global.life = 3
 
-global.jumps = 3
+global.shots = 3
+
+global.pointsLose = 100
+
+global.pointsGain = 50
 
 
 function gameReset(){
@@ -14,5 +18,5 @@ function gameReset(){
 	
 	global.life = 3
 
-	global.jumps = 3
+	global.shots = 3
 }

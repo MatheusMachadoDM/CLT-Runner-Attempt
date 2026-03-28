@@ -1,7 +1,8 @@
-var isnt, color = irandom(4), vel = choose(1.5,2)
+var isnt, color = irandom(4)
+global.velCar = choose(1.5,2)
 
 if(active){
-	isnt = instance_create_layer(x, y, "Instances", obj_car)
+	isnt = instance_create_layer(x, y, "Instances_car", obj_car)
 	
 	switch(color){
 		case 0: color = c_gray
@@ -20,13 +21,19 @@ if(active){
 		break
 	}
 	with(isnt){
-		vspeed = global.vel * vel
 		image_blend = color
 		
 	}
 		
 }
-
-alarm[0] = random_range(2, 4) * 60
+if(global.stage == 0){
+	alarm[0] = random_range(2, 4) * 60
+}else if(global.stage == 1){
+	alarm[0] = random_range(1.5, 3) * 60
+}else if(global.stage == 2){
+	alarm[0] = random_range(1, 2.5) * 60
+}else{
+	alarm[0] = random_range(1, 2) * 60
+}
 
 

@@ -4,8 +4,9 @@ if(global.life <= 0){
 	exit
 }
 
-#region jump
 
+#region jump
+/*
 var keyJump = keyboard_check_pressed(vk_space)
 
 hspd -= grv
@@ -49,6 +50,6 @@ if (!naParede) {
 	
 }
 x = x + hspd
-
+*/
 #endregion
 

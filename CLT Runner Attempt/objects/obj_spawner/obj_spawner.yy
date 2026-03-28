@@ -10,8 +10,8 @@
   "name":"obj_spawner",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"spawners",
+    "path":"folders/Objects/rm_level/spawners.yy",
   },
   "parentObjectId":null,
   "persistent":false,

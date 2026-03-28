@@ -1,4 +1,5 @@
-draw_text(250, y, "Points: " + string(global.points))
+draw_text_colour(250, y, "Points: " + string(global.points), 
+				c_white, c_white, c_white, c_white, 1)
 
 //draw_text(x, y + 50, "Life: " + string(global.life))
 
@@ -9,6 +10,6 @@ for(var i = 0; i < global.life; i++){
 	draw_sprite(spr_love, 0, x + i * 50, y)
 }
 
-for(var i = 0; i < global.jumps; i++){
+for(var i = 0; i < global.shots; i++){
 	draw_sprite(spr_banana, 0, x + i * 50, y + 50)
 }

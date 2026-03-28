@@ -1,0 +1,33 @@
+- Create a start menu with story images
+	- After the last image, the game starts
+
+- Create an infinite runner
+	- Collision on left and right
+	- Player teleports to the sides following the arrows
+	- Random itens appears
+		-  When take an item, it has to disappear
+	- Random CLTs appears
+		- When touching, the room restarts
+	- Itens come towards the player
+
+- colocar pontos e cada uma quantidade de pontos a velocidade aumentar ate um limite, quando atingir uma pontuação maxima encerrar o jogo e quando bater em uma clt, perder pontos, macacos dao pontos, corações dão vida, se tiver mais de 3 corações eles também dao pontos, banana te da pulos com máximo de 3, se tiver 3 pulos e pegar bananas ganha pontos, fazer carros que venham pela rua, trocar clt por arvore, fazer uma mini introdução e uma tela final
+
+Programming
+
+- Create points
+	- Increase speed when hitting a certain quantity of points
+		- Do a speed limit
+	- When collect a specific quantity, finish the game
+- Hit the obstacle make you lose points and life
+- Monkeys give points
+- Banana give Jumps
+	- Max of 3 bananas, after that, they also give points
+- Hearts give life
+	- Max of 3, after it gives points
+- Make cars that hits and comes by the road
+
+Art
+
+- Make a tree istead of a CLT
+- Make a white car, so you can change the color programming
+

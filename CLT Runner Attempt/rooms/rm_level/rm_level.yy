@@ -16,6 +16,9 @@
     {"name":"inst_27188E2A","path":"rooms/rm_level/rm_level.yy",},
     {"name":"inst_72AB4941","path":"rooms/rm_level/rm_level.yy",},
     {"name":"inst_74839D67","path":"rooms/rm_level/rm_level.yy",},
+    {"name":"inst_421B428E","path":"rooms/rm_level/rm_level.yy",},
+    {"name":"inst_13B836C7","path":"rooms/rm_level/rm_level.yy",},
+    {"name":"inst_3D20884C","path":"rooms/rm_level/rm_level.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -37,8 +40,15 @@
         {"$GMRInstance":"v4","%Name":"inst_74839D67","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_74839D67","objectId":{"name":"obj_car_spawner","path":"objects/obj_car_spawner/obj_car_spawner.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_car_spawner","path":"objects/obj_car_spawner/obj_car_spawner.yy",},"propertyId":{"name":"active","path":"objects/obj_car_spawner/obj_car_spawner.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":136.0,"y":-84.0,},
+        {"$GMRInstance":"v4","%Name":"inst_421B428E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_421B428E","objectId":{"name":"obj_tree_spawner","path":"objects/obj_tree_spawner/obj_tree_spawner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":44.0,"y":-32.0,},
+        {"$GMRInstance":"v4","%Name":"inst_13B836C7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_13B836C7","objectId":{"name":"obj_tree_spawner","path":"objects/obj_tree_spawner/obj_tree_spawner.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tree_spawner","path":"objects/obj_tree_spawner/obj_tree_spawner.yy",},"propertyId":{"name":"active","path":"objects/obj_tree_spawner/obj_tree_spawner.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tree_spawner","path":"objects/obj_tree_spawner/obj_tree_spawner.yy",},"propertyId":{"name":"left","path":"objects/obj_tree_spawner/obj_tree_spawner.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":136.0,"y":-32.0,},
+        {"$GMRInstance":"v4","%Name":"inst_3D20884C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3D20884C","objectId":{"name":"obj_destroyer","path":"objects/obj_destroyer/obj_destroyer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.75,"scaleY":1.0,"x":-16.0,"y":-156.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":4,"gridY":4,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":1.0,"vtiled":true,"x":0,"y":0,},
+    {"$GMRInstanceLayer":"","%Name":"Instances_car","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Instances_car","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":4,"gridY":4,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":1.0,"vtiled":true,"x":0,"y":0,},
   ],
   "name":"rm_level",
   "parent":{

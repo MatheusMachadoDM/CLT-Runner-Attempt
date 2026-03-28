@@ -8,8 +8,8 @@
   "name":"obj_music",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"controllers",
+    "path":"folders/Objects/rm_level/controllers.yy",
   },
   "parentObjectId":null,
   "persistent":false,
